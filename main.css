@@ -1,0 +1,138 @@
+col {
+    color: black
+}
+
+body {
+  background-color: #080808;
+}
+
+.navbar {
+   background: #020202;
+   box-shadow: 0 5px 6px -6px #161313;
+
+}
+
+.logo-image{
+    text-align:left;
+    width: 125px;
+    height: 32px;
+    overflow: hidden;
+    margin-top: 9px;
+    margin-left: 60px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: white;
+    margin-top: 9px;
+    padding-left:120px;
+    padding-right: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 550;
+
+    
+}
+
+
+
+
+.text-center {
+    
+    color:white;
+    padding: 35px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 550;
+    font-size: 25px;
+
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: aqua;
+}
+
+.carousel-caption h3 {
+    top: 0;
+    bottom: auto;
+    text-align: left;
+    font-size: 70px;
+    font-weight: 600;
+
+}
+
+.carousel-caption h4 {
+    top: 0;
+    bottom: auto;    
+    text-align: left;
+    font-size: 90px;
+    font-weight: 600;
+
+}
+
+.carousel-caption h5 {
+    top: 0;
+    bottom: auto;
+    text-align: left;
+    font-weight: 600;
+    font-size: 25px
+    
+        
+
+
+}
+
+.nav item
+* {box-sizing: border-box;}
+ body {font-family: Helvetica, sans-serif;}
+.mySlides {display: none;}
+ img {vertical-align: middle;}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+.container .row .col-sm :hover {
+  
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #58595a;
+}
+
+
+
+

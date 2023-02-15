@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+
+  <embed src="" loop="true" autostart="true" width="2" height="0">
+
+
+  <!--   Homepage that display knowledge and start intro page -->
+  <div class="homePage" id="homePage">
+    <button class="button btn-outline-danger" id="play" onclick="startPlay()">PLAY NOW</button>
+    <!--   <button id = "button2">Button2</button> -->
+  </div>
+
+  <!--   footer -->
+  <div class="footer" id="footer">
+    <div>
+      <h2>
+      </h2>
+    </div>
+  </div>
+
+  <!--   change the class hidden  -->
+  <div class="story hidden" id="story">
+    <div class="picture">
+      <img id="Img" src="https://i.pinimg.com/originals/8b/85/62/8b8562f42f0402989b66dcd5f66c5121.gif" />
+    </div>
+    <div id="text">
+      <p>Welcome to Stars of Eden</p>
+    </div>
+    <div class="row">
+      <button class="button btn-outline-success" id="button1" onclick="nextPage(this.id)">Go to next page</button>
+      <button class="button btn-outline-success" id="button2" onclick="nextPage(this.id)"></button>
+    </div>
+
+</body>
+
+</html>

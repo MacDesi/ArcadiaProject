@@ -1,0 +1,82 @@
+.homePage {
+  background: url("https://i.pinimg.com/originals/8b/85/62/8b8562f42f0402989b66dcd5f66c5121.gif") center;
+  background-size: cover;
+  padding: 50px 60px 150px 60px;
+  text-align: center;
+
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font:700 50px fantasy;
+  letter-spacing:0.1em;
+  color: white;
+}
+
+#play{
+  margin-top: 400px;
+  width: 250px;
+}
+
+.footer {
+  margin: 30px;
+}
+
+h5 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.story {
+  text-align: center;
+}
+
+img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+#text {
+  font: 700 24px "URW Chancery L";
+  margin: 30px;
+  color:white;
+}
+
+.button {
+  font-size: 25px;
+  font-weight:bolder;
+  width: 700px;
+  height: 75px;
+  margin: 20px auto;
+  border-color: black;
+}
+
+.button:hover {
+  color: purple;
+}
